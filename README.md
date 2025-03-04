@@ -10,7 +10,7 @@ A categorized collection of awesome opensource unity3d resources (including some
 - [Animation](#animation)
 - [Anti-Cheat](#anti-cheat)
 - [Art Tools](#art-tools)
-- [Asset Bundle](#asset-bundle)
+- [Asset Bundle / Addressable Assets](#asset-bundle--addressable-assets)
 - [Audio Manager](#audio-manager)
 - [Bolt](#bolt)
 - [Build Tools and CI](#build-tools-and-ci)
@@ -103,6 +103,7 @@ A categorized collection of awesome opensource unity3d resources (including some
 * [Automatic-DynamicBone](https://github.com/OneYoungMean/Automatic-DynamicBone) - unity bone cloth spring system,base by jobs.
 * [Aim-IK](https://github.com/ehsan-mohammadi/Aim-IK) - A Unity package, to procedurally orientate the character's head (and spine) in a direction without using any animation data.
 * [Hairibar.Ragdoll](https://github.com/hairibar/Hairibar.Ragdoll) - A package for animating ragdolls through keyframed animations.
+* [TurboSequence](https://github.com/LukasFratzl/TurboSequence) - Skeletal Based GPU Crowds for UE5 🚀
 
 ### AI
 * [Unity Movement AI](https://github.com/antonpantev/unity-movement-ai) - A library of common movement AI scripts known as Steering Behaviors. You can use these scripts to help your NPCs move around your game.
@@ -164,12 +165,13 @@ Custom Nav Mesh Avoidance to replace default one in Unity.
 * [Unity Psd Importer](https://github.com/ChemiKhazi/UnityPsdImporter) - Advanced PSD importer for Unity3D
 * [StableDiffusionUnityTools](https://github.com/KonH/StableDiffusionUnityTools) - Editor assets generation via Stable Diffusion
 
-### Asset Bundle
+### Asset Bundle / Addressable Assets
 * [AssetBundleManager](https://github.com/SadPandaStudios/AssetBundleManager) - An asset bundle manager for Unity
 * [unity-addressable-importer](https://github.com/favoyang/unity-addressable-importer) - A rule based addressable asset importer
 * [KEngine](https://github.com/mr-kelly/KEngine) - A unity asset bundle framework with LGPL license
 * [UnityAutoBundles](https://github.com/perholmes/UnityAutoBundles) - Extension to Unity's Addressables for making it easier to distribute large projects and keep mobile download size small.
 * [EZAddresser](https://github.com/Haruma-K/EZAddresser) - Automatic addressing system for Unity Addressable Asset System.
+* [SmartAddresser](https://github.com/CyberAgentGameEntertainment/SmartAddresser) - Automate Addressing, Labeling, and Version Control for Unity's Addressable Asset System.
 
 ### Audio Manager
 * [LucidAudio](https://github.com/AnnulusGames/LucidAudio) - Simple audio player for unity
@@ -384,6 +386,7 @@ Custom Nav Mesh Avoidance to replace default one in Unity.
 * [VFX-Lab](https://github.com/neon-age/VFX-Lab) - Shaders and VFX experimentation in URP and BIRP
 * [URP_ShaderGraphCustomLighting](https://github.com/Cyanilux/URP_ShaderGraphCustomLighting) - Some custom lighting functions/sub-graphs for Shader Graph, Universal Render Pipeline
 * [FSR2Unity](https://github.com/ndepoel/FSR2Unity) - FSR 3.0 Upscaler integration for Unity built-in render pipeline, with support for DX11, Mac, Linux and consoles.
+* [HoyoToon](https://github.com/Melioli/HoyoToon) - Shader for Unity (Built-in Rendering Pipeline) attempting to replicate the shading of miHoYo developed games. This is for datamined assets, not custom-made ones nor the MMD variants.
 
 ### Effect-Highlighter
 * [Outline-Effect](https://github.com/cakeslice/Outline-Effect) - Outline Image Effect for Unity
@@ -593,6 +596,7 @@ A simple to use TCP and UDP networking library for .NET. Compatible with Unity
 * [open-netcode](https://github.com/polartron/open-netcode) - Open Netcode is a feature rich networking package for Unity DOTS.
 * [Master Server Toolkit](https://github.com/aevien/master-server-toolkit) - This is a framework that allows you to create game servers and services for your game inside Unity. It allows you to avoid using third-party services such as Playful, PAN, or Smartfox server. This framework does not claim to be a substitute for all these systems. No way!
 * [EntityNetworkingSystems](https://github.com/AncientEntity/EntityNetworkingSystems) - A networking framework for Unity.
+* [promul](https://github.com/jacksonrakena/promul) - An open-source networking & relay implementation for Unity Netcode for GameObjects
 
 ### Node Graph
 * [xNode](https://github.com/Siccity/xNode) - Lets you view and edit node graphs inside Unity
@@ -724,6 +728,7 @@ A simple to use TCP and UDP networking library for .NET. Compatible with Unity
 ### Tweening
 * [DOTween (Recommend)](https://github.com/Demigiant/dotween) - A Unity C# animation engine. HOTween v2
 * [MagicTween](https://github.com/AnnulusGames/MagicTween) - Extremely fast tween library implemented in Unity ECS
+* [LitMotion](https://github.com/AnnulusGames/LitMotion) - Lightning-fast and Zero Allocation Tween Library for Unity.
 * [PrimeTween](https://github.com/KyryloKuzyk/PrimeTween) - High-performance, allocation-free tween library for Unity. Create animations, delays, and sequences in one line of code.
 * [TweenPlayables](https://github.com/AnnulusGames/TweenPlayables) - Tween Animation Library for Unity Timeline
 * [LeanTween](https://github.com/dentedpixel/LeanTween) - LeanTween is an efficient animation engine for Unity
@@ -850,6 +855,7 @@ A gc-free closure implementation for unity
 * [Unity-Ripgrep-Search-Tool](https://github.com/prime31/Unity-Ripgrep-Search-Tool) - Helper class for making your own search tools along with a built-in transient Ripgrep search window.
 * [Scene Reference Attribute](https://github.com/KyleBanks/scene-ref-attribute) - Unity C# attribute for serializing component and interface references within the scene or prefab during OnValidate.
 * [UnityPythonMediaPipeAvatar](https://github.com/ganeshsar/UnityPythonMediaPipeAvatar) - Creating a multi-threaded full body tracking solution supporting arbitrary humanoid avatars for Unity using Google Mediapipe Pose Python bindings.
+* [RapidEnum](https://github.com/hanachiru/RapidEnum) - Enum utility with SourceGenerator for C#/.NET
 
 ### VR/XR
 * [VRTK](https://github.com/thestonefox/VRTK) - A productive VR Toolkit for rapidly building VR solutions in Unity3d.
@@ -882,6 +888,7 @@ A gc-free closure implementation for unity
 * [itch.io](https://itch.io/game-assets)
 * [Game Assets](https://game-asset.net/)
 * [Game Dev Market](https://www.gamedevmarket.net/)
+* [Kenney](https://kenney.nl/assets) - Free 2D, 3D, and Audio assets for personal and commercial use.
 * [Open Game Art](https://opengameart.org/)
 * [Unity Assetstore](https://assetstore.unity.com/) - Official asset store for unity.
 * [Unitylist](https://unitylist.com/) - Search for everything.
@@ -902,6 +909,7 @@ A gc-free closure implementation for unity
 * [50 Tips and Best Practices for Unity (2016 Edition)](https://www.gamasutra.com/blogs/HermanTulleken/20160812/279100/50_Tips_and_Best_Practices_for_Unity_2016_Edition.php)
 * [Unity Package Manager 2018.3+](https://blogs.unity3d.com/2018/05/09/unity-packages-life-cycle/)
 * [Cracked Ice Shader](https://80.lv/articles/how-to-build-cracked-ice-in-material-editor/)
+* [Unity-Addressable](https://github.com/Wenrong274/Unity-Addressable)
 
 ## Books
 * [Game Programming Patterns](http://gameprogrammingpatterns.com/) Free and Paid available
